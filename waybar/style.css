@@ -1,0 +1,191 @@
+* {
+  border: none;
+  font-family: "JetBrainsMono Nerd Font";
+  font-weight: bold;
+  font-size: 14px;
+  min-height: 0;
+}
+
+window#waybar {
+  color: #d0d0d0; /* Light gray for text */
+  border-radius: 5px;
+  padding: 0px;
+  transition-duration: 1s;
+  box-shadow: none;
+  background: transparent;
+}
+
+tooltip {
+  border-radius: 0px;
+  border-width: 2px;
+  border-style: solid;
+  border-color: rgba(0, 0, 0, 0);
+  color: #d0d0d0;
+}
+
+#workspaces button {
+  margin-right: 0px;
+  color: #777777; /* Dim inactive button */
+  border-radius: 5px;
+}
+
+#workspaces button.active {
+  color: #b0b0b0; /* Slightly lighter for active */
+}
+
+#workspaces button.focused {
+  color: #a0a0a0;
+}
+
+#workspaces button.urgent {
+  color: #d0d0d0;
+}
+
+#workspaces button:hover {
+  color: #999999;
+}
+
+#temperature {
+  color: #bbbbbb;
+}
+
+#temperature.critical {
+  color: #888888;
+}
+
+#backlight {
+  color: #999999;
+}
+
+#workspaces {
+  padding: 0px;
+}
+
+#mpris {
+  color: #b0b0b0;
+}
+
+#custom-cava,
+#custom-euro {
+  color: #b0b0b0;
+}
+
+#custom-power_profile {
+  color: #999999;
+}
+
+#window {
+  color: #d0d0d0;
+}
+
+#clock {
+  color: #b0b0b0;
+}
+
+#custom-arch {
+  color: #8a8a8a;
+}
+
+#custom-quit {
+  color: #aaaaaa;
+}
+
+#custom-lock {
+  color: #999999;
+}
+
+#custom-sleep {
+  color: #aaaaaa;
+}
+
+#custom-reboot {
+  color: #aaaaaa;
+}
+
+#custom-shutdown {
+  color: #888888;
+}
+
+#network {
+  color: #8a8a8a;
+}
+
+#bluetooth {
+  color: #aaaaaa;
+}
+
+#pulseaudio:not(.microphone) {
+  color: #aaaaaa;
+}
+
+#pulseaudio.microphone {
+  color: #999999;
+}
+
+#pulseaudio.bluetooth:not(.microphone) {
+  color: #aaaaaa;
+}
+
+#pulseaudio.muted:not(.microphone) {
+  color: #777777;
+}
+
+#pulseaudio.microphone.source-muted {
+  color: #777777;
+}
+
+#battery {
+  color: #999999;
+}
+
+battery.bat2 {
+  color: #999999;
+}
+
+#custom-weather {
+  color: #aaaaaa;
+}
+
+#tray {
+  padding: 0;
+}
+
+window#waybar > box > box > widget > *,
+window#waybar > box > box > box {
+  margin: 0 5px;
+  border-radius: 5px;
+  background-color: rgba(
+    0,
+    0,
+    0,
+    0.6
+  ); /* Almost black background with opacity */
+}
+
+widget > * {
+  padding: 0 10px;
+}
+
+slider {
+  min-height: 0px;
+  min-width: 0px;
+  opacity: 0;
+  background-image: none;
+  border: none;
+  box-shadow: none;
+}
+
+trough {
+  min-height: 20px;
+  min-width: 80px;
+  border-radius: 5px;
+}
+
+highlight {
+  min-height: 10px;
+  border-radius: 5px;
+}
+
+#light {
+  border-radius: 5px;
+}

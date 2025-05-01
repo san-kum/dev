@@ -1,0 +1,33 @@
+# (Monochrome) color scheme for Emilia Rice
+
+# Default colors
+[colors.primary]
+background = "#000000"
+foreground = "#dcdcdc"
+
+# Cursor colors
+[colors.cursor]
+cursor = "#dcdcdc"
+text = "#1a1a1a"
+
+# Normal colors
+[colors.normal]
+black   = "#121212"
+red     = "#2a2a2a"
+green   = "#3f3f3f"
+yellow  = "#555555"
+blue    = "#6a6a6a"
+magenta = "#808080"
+cyan    = "#969696"
+white   = "#bcbcbc"
+
+# Bright colors
+[colors.bright]
+black   = "#2a2a2a"
+red     = "#3f3f3f"
+green   = "#555555"
+yellow  = "#6a6a6a"
+blue    = "#808080"
+magenta = "#969696"
+cyan    = "#bcbcbc"
+white   = "#dcdcdc"
